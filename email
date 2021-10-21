@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter graphic</title>
+</head>
+<style>
+    body {
+      background-color:#E9EAE7;  
+      margin: 0;
+      padding: 0;
+    }
+    .main {
+        border-spacing: 0;
+        table-layout: fixed;
+     
+    }
+    td{
+        padding: 0;
+    }
+img{
+    border:0;
+}
+.threeColumn{
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    font-family: sans-serif;  
+    color: #1b1b1c;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.threeColumn .column{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    line-height: 1.2;
+    width: 100%;
+    max-width: 33.3333%;
+}
+
+.padding{
+    padding: 15px;
+}
+  @media screen and (max-width:600px){
+img.thirdimage-last{
+width: 200px!important;
+max-width: 200px!important;
+}
+     }
+
+     @media screen and (max-width:400px) {
+     img.thirdimage {
+width: 200px!important;
+max-width: 200px!important;
+}   
+.padding{
+    padding-right: 0!important;
+    padding-left: 0!important;
+} 
+     }
+</style>
+<body>
+    <center width="100%">
+       
+<table class="main" width="600" cellspacing="0" cellpadding="0" border="0" style="padding-bottom: 40px;">
+<tr>
+    <td align="center" >
+
+<table width="100%"  cellspacing="0" cellpadding="0" border="0" style="background-color: #fff; max-width: 600px;" >
+   
+<!-- preheader -->
+<tr>
+    <td style="padding:8px 0" align="center">
+      
+<table width="90%" cellspacing="0" cellpadding="0" border="0"  >
+<tr>
+    <td align="left" style="font-size: 13px; font-family: sans-serif;  text-decoration: none; color: #1b1b1c;">
+  Find your way!
+    </td>
+    <td align="right" >
+<a href="#"style="font-size: 13px; font-family: sans-serif;   color: #1b1b1c;">View in browser</a>
+    </td>
+</tr>
+
+</table>
+</td>
+</tr>
+
+<!-- logo -->
+<tr>
+    <td>
+
+  
+<table width="100%"cellspacing="0" cellpadding="0" border="0" style="background-color:#e6c5d7;">
+    <tr>
+        <td align="center" style="padding: 10px 0;">
+           <p style="color:#fff; text-transform:uppercase;font-size: 20px; font-family: sans-serif; letter-spacing: 3px;">Business Insider</p>
+        </td>
+    </tr>
+</table>
+</td>
+</tr>
+<!-- menu -->
+<tr>
+    <td style="padding: 10px 0;">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td align="center" > <a href="#" style="font-size: 13px; font-family: sans-serif; font-weight:bold; color:#6e4553;">New</a> </td>
+    <td align="center" ><a href="#" style="font-size: 13px; font-family: sans-serif;  color: #1b1b1c;text-decoration: none;">Photos</a> </td>
+    <td align="center"> <a href="#" style="font-size: 13px; font-family: sans-serif; color: #1b1b1c;text-decoration:none;">Pictures</a></td>
+    <td align="center" > <a href="#" style="font-size: 13px; font-family: sans-serif; text-decoration:none;   color: #1b1b1c;">Printables</a></td>
+</tr>
+
+        </table>
+    </td>
+</tr>
+
+<!-- main image -->
+<tr>
+    <td>
+<img src="https://images.pexels.com/photos/326612/pexels-photo-326612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  width="600" style="max-width: 600px;" border="0">
+    </td>
+</tr>
+
+
+<!-- 3 column section-->
+<tr>
+    <td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="threeColumn">
+<table class="column" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td class="padding">
+<table class="content" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+    <td >
+        <img src="https://images.pexels.com/photos/1036848/pexels-photo-1036848.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class= "thirdimage" alt="phone" width="150" height ="100"style = " max-width: 150px;" border="0">
+         
+        <p style="  font-weight: bold; ">DESK LAYOUT</p>    
+         <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, impedit?</p> 
+        <a href="#" style="font-size: 13px; font-family: sans-serif;  color: #6e4553;text-decoration: none;">Learn more..</a>
+            </td>
+</tr>
+</table>
+    </td>
+</tr>
+</table>
+
+<table class="column" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td class="padding">
+            <table class="content" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td>
+                        <img src="https://images.pexels.com/photos/1478477/pexels-photo-1478477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class= "thirdimage"width="150" height ="100"style=" max-width: 150px;"alt="hero" border="0">
+                            
+
+                        <p style="  font-weight: bold; ">DRAWINGS</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, impedit?</p>
+                        <a href="#"  style="font-size: 13px; font-family: sans-serif;  color: #6e4553;text-decoration: none;">Learn more..</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<table class="column" width="100%" cellspacing="0" cellpadding="0" border="0">
+    <tr>
+        <td class="padding">
+            <table class="content" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                    <td>
+                        <img src="https://images.pexels.com/photos/876467/pexels-photo-876467.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class= "thirdimage-last"alt="watch" width="150" height ="100" style=" max-width: 150px;"
+                            border="0">
+
+                        <p style="  font-weight: bold; ">AFTER WORK</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, impedit?</p>
+                        <a href="#" style="font-size: 13px; font-family: sans-serif;  color: #6e4553;text-decoration: none;">Learn more..</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+    </td>
+</tr>
+  
+
+</table>
+ </td>
+</tr>
+
+
+<!-- social -->
+<tr>
+    <td>
+
+
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#e6c5d7;">
+            <tr>
+                <td align="center" style="padding: 5px 0;">
+                   <p style="color:#fff; text-transform:uppercase;font-size: 18px; font-family: sans-serif; letter-spacing: 3px;" >Connect with us</p>
+                <a href="#"><img src="https://i.postimg.cc/gLGwZyX1/white-facebook.png" alt="white-facebook" border="0" width="30" style="padding: 10px;"></a>
+                <a href="#"><img src="https://i.postimg.cc/0MYMjXQp/white-instagram.png" style="padding: 10px;" alt="white-instagram"
+                        border="0"width="30"></a>
+                <a href="#"><img src="https://i.postimg.cc/nCcjVktD/white-linkedin.png" style="padding: 10px;"alt="white-linkedin" border="0" width="30"></a>
+                <a href="#"><img src="https://i.postimg.cc/rz9RLH7T/white-twitter.png" style="padding: 10px;"alt="white-twitter" border="0"width="30"></a>
+                <a href="#"><img src="https://i.postimg.cc/Sj4Y34TV/white-youtube.png"style="padding: 10px;"alt="white-youtube" border="0"width="30"></a>
+                
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<!-- footer-->
+      
+<tr>
+    <td  align="center" style="padding-bottom: 20px;  text-align: center;">
+
+        <table width="90%" cellspacing="0" cellpadding="0" border="0">
+      <img src="https://images.pexels.com/photos/139309/pexels-photo-139309.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"alt="banner" border="0" width="600" style="max-width: 600px; height: 100px;"> 
+<p style="font-size: 13px; font-family: sans-serif;  color: #1b1b1c; padding-top: 20px; text-align: center;" >Designed with love</p>
+<a href="mailto:sioana.seres@gmail.com" style="font-size: 13px; font-family: sans-serif;  color: #1b1b1c; text-align: center;">sioana.seres@gmail.com</a>
+        </table>
+    </td>
+</tr>
+
+<tr>
+    <td height="20"style="background-color:#e6c5d7;"></td>
+</tr>
+</table>
+    </td>
+</tr>
+
+</table>
+</center>
+</body>
+</html>
